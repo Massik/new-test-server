@@ -1,0 +1,11 @@
+{
+  "name": "nodeassestments",
+  "version": "1.0.0",
+  "description": "My",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Ivan",
+  "license": "ISC"
+}
