@@ -11,4 +11,4 @@ const server = http.createServer(function(req,res){
 req.url=== '/style.css'? res.end(style):res.end(text);
 console.log(req.method, req.url);
 });	
-server.listen('3000');
+server.listen(process.env.PORT||3000);
